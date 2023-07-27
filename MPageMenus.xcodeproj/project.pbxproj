@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1180172A72DB17001F0D66 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180102A72DB17001F0D66 /* MenuItemView.swift */; };
+		FC1180182A72DB17001F0D66 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */; };
+		FC1180192A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		FC11801A2A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */; };
+		FC11801B2A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		FC11801C2A72DB17001F0D66 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */; };
+		FC11801D2A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */; };
 		FCB0F4D52A72CACF008A19C5 /* MPageMenus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0F4CC2A72CACE008A19C5 /* MPageMenus.framework */; };
 		FCB0F4DA2A72CACF008A19C5 /* MPageMenusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F4D92A72CACF008A19C5 /* MPageMenusTests.swift */; };
 		FCB0F4DB2A72CACF008A19C5 /* MPageMenus.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB0F4CF2A72CACE008A19C5 /* MPageMenus.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +24,7 @@
 		FCB0F4F42A72CBCC008A19C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB0F4F32A72CBCC008A19C5 /* Assets.xcassets */; };
 		FCB0F4F72A72CBCC008A19C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB0F4F52A72CBCC008A19C5 /* LaunchScreen.storyboard */; };
 		FCB0F4FD2A72CEF7008A19C5 /* MPageMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F4FC2A72CEF7008A19C5 /* MPageMenus.swift */; };
+		FCC49E172A72D884000BE668 /* MPageMenus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0F4CC2A72CACE008A19C5 /* MPageMenus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +35,37 @@
 			remoteGlobalIDString = FCB0F4CB2A72CACE008A19C5;
 			remoteInfo = MPageMenus;
 		};
+		FCC49E182A72D884000BE668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB0F4C32A72CACE008A19C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB0F4CB2A72CACE008A19C5;
+			remoteInfo = MPageMenus;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FCC49E1A2A72D884000BE668 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCC49E172A72D884000BE668 /* MPageMenus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC1180102A72DB17001F0D66 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Sources/MenuItemView.swift; sourceTree = "<group>"; };
+		FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+Options.swift"; path = "Sources/CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIScrollViewDelegate.swift"; path = "Sources/CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIConfiguration.swift"; path = "Sources/CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; path = "Sources/CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Sources/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenuConfiguration.swift; path = Sources/CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		FCB0F4CC2A72CACE008A19C5 /* MPageMenus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPageMenus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB0F4CF2A72CACE008A19C5 /* MPageMenus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPageMenus.h; sourceTree = "<group>"; };
 		FCB0F4D42A72CACF008A19C5 /* MPageMenusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPageMenusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,10 +110,18 @@
 		FCB0F4C22A72CACE008A19C5 = {
 			isa = PBXGroup;
 			children = (
+				FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */,
+				FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */,
+				FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */,
+				FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */,
+				FC1180102A72DB17001F0D66 /* MenuItemView.swift */,
 				FCB0F4CE2A72CACE008A19C5 /* MPageMenus */,
 				FCB0F4D82A72CACF008A19C5 /* MPageMenusTests */,
 				FCB0F4E92A72CBCB008A19C5 /* MPageMenusExample */,
 				FCB0F4CD2A72CACE008A19C5 /* Products */,
+				FCC49E152A72D884000BE668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +164,13 @@
 				FCB0F4F82A72CBCC008A19C5 /* Info.plist */,
 			);
 			path = MPageMenusExample;
+			sourceTree = "<group>";
+		};
+		FCC49E152A72D884000BE668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +230,12 @@
 				FCB0F4E42A72CBCB008A19C5 /* Sources */,
 				FCB0F4E52A72CBCB008A19C5 /* Frameworks */,
 				FCB0F4E62A72CBCB008A19C5 /* Resources */,
+				FCC49E1A2A72D884000BE668 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCC49E192A72D884000BE668 /* PBXTargetDependency */,
 			);
 			name = MPageMenusExample;
 			productName = MPageMenusExample;
@@ -263,6 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1180172A72DB17001F0D66 /* MenuItemView.swift in Sources */,
+				FC1180182A72DB17001F0D66 /* CAPSPageMenu+Options.swift in Sources */,
+				FC1180192A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				FC11801A2A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				FC11801B2A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				FC11801C2A72DB17001F0D66 /* CAPSPageMenu.swift in Sources */,
+				FC11801D2A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift in Sources */,
 				FCB0F4FD2A72CEF7008A19C5 /* MPageMenus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +352,11 @@
 			isa = PBXTargetDependency;
 			target = FCB0F4CB2A72CACE008A19C5 /* MPageMenus */;
 			targetProxy = FCB0F4D62A72CACF008A19C5 /* PBXContainerItemProxy */;
+		};
+		FCC49E192A72D884000BE668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB0F4CB2A72CACE008A19C5 /* MPageMenus */;
+			targetProxy = FCC49E182A72D884000BE668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -449,6 +514,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +547,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,6 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myproduct.MPageMenusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +613,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +641,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
