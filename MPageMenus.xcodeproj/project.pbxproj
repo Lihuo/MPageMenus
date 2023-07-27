@@ -59,13 +59,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FC1180102A72DB17001F0D66 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Sources/MenuItemView.swift; sourceTree = "<group>"; };
-		FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+Options.swift"; path = "Sources/CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
-		FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIScrollViewDelegate.swift"; path = "Sources/CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
-		FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIConfiguration.swift"; path = "Sources/CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
-		FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; path = "Sources/CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
-		FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Sources/CAPSPageMenu.swift; sourceTree = "<group>"; };
-		FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CAPSPageMenuConfiguration.swift; path = Sources/CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		FC1180102A72DB17001F0D66 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		FCB0F4CC2A72CACE008A19C5 /* MPageMenus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPageMenus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB0F4CF2A72CACE008A19C5 /* MPageMenus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPageMenus.h; sourceTree = "<group>"; };
 		FCB0F4D42A72CACF008A19C5 /* MPageMenusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPageMenusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,13 +110,6 @@
 		FCB0F4C22A72CACE008A19C5 = {
 			isa = PBXGroup;
 			children = (
-				FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */,
-				FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */,
-				FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */,
-				FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
-				FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
-				FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */,
-				FC1180102A72DB17001F0D66 /* MenuItemView.swift */,
 				FCB0F4CE2A72CACE008A19C5 /* MPageMenus */,
 				FCB0F4D82A72CACF008A19C5 /* MPageMenusTests */,
 				FCB0F4E92A72CBCB008A19C5 /* MPageMenusExample */,
@@ -138,6 +131,13 @@
 		FCB0F4CE2A72CACE008A19C5 /* MPageMenus */ = {
 			isa = PBXGroup;
 			children = (
+				FC1180152A72DB17001F0D66 /* CAPSPageMenu.swift */,
+				FC1180112A72DB17001F0D66 /* CAPSPageMenu+Options.swift */,
+				FC1180132A72DB17001F0D66 /* CAPSPageMenu+UIConfiguration.swift */,
+				FC1180142A72DB17001F0D66 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				FC1180122A72DB17001F0D66 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				FC1180162A72DB17001F0D66 /* CAPSPageMenuConfiguration.swift */,
+				FC1180102A72DB17001F0D66 /* MenuItemView.swift */,
 				FCB0F4CF2A72CACE008A19C5 /* MPageMenus.h */,
 				FCB0F4FC2A72CEF7008A19C5 /* MPageMenus.swift */,
 			);
