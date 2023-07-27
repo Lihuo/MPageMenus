@@ -16,6 +16,7 @@
 		FCB0F4F22A72CBCB008A19C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB0F4F02A72CBCB008A19C5 /* Main.storyboard */; };
 		FCB0F4F42A72CBCC008A19C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB0F4F32A72CBCC008A19C5 /* Assets.xcassets */; };
 		FCB0F4F72A72CBCC008A19C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB0F4F52A72CBCC008A19C5 /* LaunchScreen.storyboard */; };
+		FCB0F4FD2A72CEF7008A19C5 /* MPageMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0F4FC2A72CEF7008A19C5 /* MPageMenus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FCB0F4F32A72CBCC008A19C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB0F4F62A72CBCC008A19C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB0F4F82A72CBCC008A19C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB0F4FC2A72CEF7008A19C5 /* MPageMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPageMenus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FCB0F4CF2A72CACE008A19C5 /* MPageMenus.h */,
+				FCB0F4FC2A72CEF7008A19C5 /* MPageMenus.swift */,
 			);
 			path = MPageMenus;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					FCB0F4CB2A72CACE008A19C5 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					FCB0F4D32A72CACF008A19C5 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB0F4FD2A72CEF7008A19C5 /* MPageMenus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		FCB0F4DF2A72CACF008A19C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -455,6 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +470,7 @@
 		FCB0F4E02A72CACF008A19C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -493,6 +501,7 @@
 		FCB0F4E22A72CACF008A19C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +517,7 @@
 		FCB0F4E32A72CACF008A19C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
